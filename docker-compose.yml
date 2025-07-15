@@ -24,12 +24,11 @@ services:
   satisfactory-website:
     container_name: 'satisfactory-website'
     image: localhost:5000/satisfactory-website:latest
-    command: [nginx-debug, '-g', 'daemon off;']
     restart: unless-stopped
     networks:
       - traefik
     volumes:
-      - './satisfactory-server/saved/server:/var/www/html/saves:ro'
+      - './satisfactory-server/saved/server:/usr/share/nginx/html/saves:ro'
     labels:
       - "traefik.enable=true"
 
