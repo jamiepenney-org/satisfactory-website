@@ -1,23 +1,20 @@
 {
-  "name": "hugo-fixit-starter",
-  "version": "1.0.0",
-  "description": "This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Hugo submodule](https://gohugo.io/hugo-modules/) feature to load the theme.",
-  "main": "index.js",
+  "name": "satisfactory-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "hugo --gc --minify --logLevel info",
-    "server": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0 -O",
-    "server:production": "npm run server -- --environment production",
-    "server:development": "HUGO_MODULE_WORKSPACE=hugo.work npm run server -- --ignoreVendorPaths \"**\"",
-    "update:theme": "hugo mod get -u github.com/hugo-fixit/FixIt@latest && hugo mod tidy"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hugo-fixit/hugo-fixit-starter.git"
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
   },
-  "author": "Lruihao (https://github.com/Lruihao)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hugo-fixit/hugo-fixit-starter/issues"
-  },
-  "homepage": "https://github.com/hugo-fixit/hugo-fixit-starter#readme"
+  "dependencies": {
+    "@types/cytoscape-klay": "^3.1.4",
+    "cytoscape": "^3.32.1",
+    "cytoscape-klay": "^3.1.4"
+  }
 }

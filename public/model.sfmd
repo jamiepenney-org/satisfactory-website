@@ -1,0 +1,4824 @@
+{
+    "Version": "1.0",
+    "Solver": "Full",
+    "Zoom": 0.7493101525991666,
+    "PanX": 52,
+    "PanY": 457,
+    "Outpost": 295,
+    "Data": [
+        {
+            "Name": "Iron Ingot",
+            "X": -1492,
+            "Y": -1309,
+            "Parent": 272,
+            "Inputs": {
+                "Iron Ore": [
+                    15
+                ]
+            }
+        },
+        {
+            "Name": "Stitched Iron Plate",
+            "X": -826,
+            "Y": -1193,
+            "Parent": 272,
+            "Inputs": {
+                "Iron Plate": [
+                    5
+                ],
+                "Wire": [
+                    4
+                ]
+            }
+        },
+        {
+            "Name": "Modular Frame",
+            "X": -222,
+            "Y": -1203,
+            "Parent": 272,
+            "Inputs": {
+                "Reinforced Iron Plate": [
+                    1
+                ],
+                "Iron Rod": [
+                    6
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Concrete",
+            "X": -1138,
+            "Y": -736,
+            "Parent": 272,
+            "Inputs": {
+                "Limestone": [
+                    7
+                ]
+            }
+        },
+        {
+            "Name": "Wire",
+            "X": -1133,
+            "Y": -1132,
+            "Parent": 272,
+            "Inputs": {
+                "Copper Ingot": [
+                    13
+                ]
+            }
+        },
+        {
+            "Name": "Iron Plate",
+            "X": -1182,
+            "Y": -1306,
+            "Parent": 272,
+            "Inputs": {
+                "Iron Ingot": [
+                    0
+                ]
+            }
+        },
+        {
+            "Name": "Iron Rod",
+            "X": -1175,
+            "Y": -1532,
+            "Parent": 272,
+            "Inputs": {
+                "Iron Ingot": [
+                    0
+                ]
+            }
+        },
+        {
+            "Name": "Limestone",
+            "X": -1472,
+            "Y": -743,
+            "Parent": 272,
+            "Machine": "Miner Mk.2"
+        },
+        {
+            "Name": "Coal",
+            "X": -1813,
+            "Y": -465,
+            "Parent": 272,
+            "Machine": "Miner Mk.2"
+        },
+        {
+            "Name": "Heavy Encased Frame",
+            "X": 401,
+            "Y": -834,
+            "Parent": 272,
+            "Max": "3 5/9",
+            "Inputs": {
+                "Modular Frame": [
+                    2
+                ],
+                "Encased Industrial Beam": [
+                    11
+                ],
+                "Steel Pipe": [
+                    10
+                ],
+                "Concrete": [
+                    3
+                ]
+            },
+            "InputOrder": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "Name": "Steel Pipe",
+            "X": -1028,
+            "Y": -585,
+            "Parent": 272,
+            "Inputs": {
+                "Steel Ingot": [
+                    12
+                ]
+            }
+        },
+        {
+            "Name": "Encased Industrial Pipe",
+            "X": -395,
+            "Y": -968,
+            "Parent": 272,
+            "Inputs": {
+                "Steel Pipe": [
+                    10
+                ],
+                "Concrete": [
+                    3
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Solid Steel Ingot",
+            "X": -1330,
+            "Y": -485,
+            "Parent": 272,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Iron Ingot": [
+                    0
+                ],
+                "Coal": [
+                    8
+                ]
+            }
+        },
+        {
+            "Name": "Copper Ingot",
+            "X": -1528,
+            "Y": -1117,
+            "Parent": 272,
+            "Inputs": {
+                "Copper Ore": [
+                    14
+                ]
+            }
+        },
+        {
+            "Name": "Copper Ore",
+            "X": -1790,
+            "Y": -1117,
+            "Parent": 272,
+            "Machine": "Miner Mk.2"
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -1791,
+            "Y": -1309,
+            "Parent": 272,
+            "Machine": "Miner Mk.2",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Water",
+            "X": -498,
+            "Y": -203,
+            "Parent": 250,
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Pure Copper Ingot",
+            "X": -104,
+            "Y": -247,
+            "Parent": 250,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Copper Ore": [
+                    245
+                ],
+                "Water": [
+                    16
+                ]
+            }
+        },
+        {
+            "Name": "Pure Aluminum Ingot",
+            "X": 500,
+            "Y": -800,
+            "Parent": 144,
+            "Inputs": {
+                "Aluminum Scrap": [
+                    19
+                ]
+            }
+        },
+        {
+            "Name": "Electrode Aluminum Scrap",
+            "X": 0,
+            "Y": -800,
+            "Parent": 144,
+            "Inputs": {
+                "Alumina Solution": [
+                    20
+                ],
+                "Petroleum Coke": [
+                    [
+                        59,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Sloppy Alumina",
+            "X": -400,
+            "Y": -800,
+            "Parent": 144,
+            "Inputs": {
+                "Bauxite": [
+                    84
+                ],
+                "Water": [
+                    [
+                        22,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -800,
+            "Y": -500,
+            "Parent": 144
+        },
+        {
+            "Name": "Priority Merger",
+            "X": -600,
+            "Y": -500,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        19,
+                        "Water"
+                    ]
+                ],
+                [
+                    [
+                        21,
+                        "Water"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": -500,
+            "Y": 0,
+            "Parent": 144,
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    70
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 1400,
+            "Y": -800,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        52,
+                        "Aluminum Casing"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 700,
+            "Y": 100,
+            "Parent": 71,
+            "Inputs": [
+                [
+                    [
+                        26,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": -100,
+            "Y": -200,
+            "Parent": 71,
+            "Inputs": [
+                [
+                    [
+                        30,
+                        "Caterium Ingot"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -700,
+            "Y": -200,
+            "Parent": 71,
+            "Inputs": [
+                [
+                    [
+                        72,
+                        "Polymer Resin"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -1200,
+            "Y": -300,
+            "Parent": 71
+        },
+        {
+            "Name": "Caterium Ore",
+            "X": -1200,
+            "Y": -500,
+            "Parent": 71,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "Max": "3600"
+        },
+        {
+            "Name": "Tempered Caterium Ingot",
+            "X": -400,
+            "Y": -300,
+            "Parent": 71,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Caterium Ore": [
+                    29
+                ],
+                "Petroleum Coke": [
+                    73
+                ]
+            }
+        },
+        {
+            "Name": "Steel Rotor",
+            "X": 100,
+            "Y": -300,
+            "Parent": 85,
+            "Inputs": {
+                "Steel Pipe": [
+                    35
+                ],
+                "Wire": [
+                    36
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Stator",
+            "X": 100,
+            "Y": -200,
+            "Parent": 85,
+            "Inputs": {
+                "Steel Pipe": [
+                    35
+                ],
+                "Wire": [
+                    34
+                ]
+            }
+        },
+        {
+            "Name": "Copper Ore",
+            "X": -900,
+            "Y": -500,
+            "Parent": 85,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Wire",
+            "X": -200,
+            "Y": -100,
+            "Parent": 85,
+            "Inputs": {
+                "Copper Ingot": [
+                    37
+                ]
+            }
+        },
+        {
+            "Name": "Iron Pipe",
+            "X": -200,
+            "Y": -300,
+            "Parent": 85,
+            "Inputs": {
+                "Iron Ingot": [
+                    39
+                ]
+            }
+        },
+        {
+            "Name": "Wire",
+            "X": -200,
+            "Y": -500,
+            "Parent": 85,
+            "Inputs": {
+                "Copper Ingot": [
+                    37
+                ]
+            }
+        },
+        {
+            "Name": "Pure Copper Ingot",
+            "X": -500,
+            "Y": -500,
+            "Parent": 85,
+            "Inputs": {
+                "Copper Ore": [
+                    33
+                ],
+                "Water": [
+                    38
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -800,
+            "Y": -400,
+            "Parent": 85
+        },
+        {
+            "Name": "Pure Iron Ingot",
+            "X": -500,
+            "Y": -300,
+            "Parent": 85,
+            "Inputs": {
+                "Iron Ore": [
+                    40
+                ],
+                "Water": [
+                    38
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -800,
+            "Y": -200,
+            "Parent": 85,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Motor",
+            "X": 400,
+            "Y": -300,
+            "Parent": 85,
+            "ShowPpm": true,
+            "Max": "25",
+            "Inputs": {
+                "Rotor": [
+                    31
+                ],
+                "Stator": [
+                    32
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 600,
+            "Y": -400,
+            "Parent": 85,
+            "Inputs": [
+                [
+                    [
+                        41,
+                        "Motor"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 800,
+            "Y": -300,
+            "Parent": 85,
+            "Inputs": [
+                [
+                    [
+                        42,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Nitrogen Gas",
+            "X": -800,
+            "Y": 0,
+            "Parent": 270
+        },
+        {
+            "Name": "Cooling Device",
+            "X": -600,
+            "Y": -200,
+            "Parent": 270,
+            "Inputs": {
+                "Heat Sink": [
+                    [
+                        270,
+                        1
+                    ]
+                ],
+                "Motor": [
+                    [
+                        270,
+                        2
+                    ]
+                ],
+                "Nitrogen Gas": [
+                    44
+                ]
+            }
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 300,
+            "Y": -200,
+            "Parent": 270,
+            "Inputs": [
+                [
+                    [
+                        47,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 100,
+            "Y": -400,
+            "Parent": 270,
+            "Inputs": [
+                [
+                    [
+                        271,
+                        "Turbo Motor"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": -400,
+            "Y": -300,
+            "Parent": 270,
+            "Inputs": [
+                [
+                    [
+                        45,
+                        "Cooling System"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": -100,
+            "Y": -200,
+            "Parent": 270,
+            "Inputs": [
+                [
+                    [
+                        48,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 100,
+            "Y": -100,
+            "Parent": 270,
+            "Inputs": [
+                [
+                    [
+                        49,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Outpost",
+            "X": 400,
+            "Y": 100,
+            "InteriorInputs": [
+                []
+            ],
+            "Zoom": 1.2999999999999998,
+            "PanX": 0,
+            "PanY": 0
+        },
+        {
+            "Name": "Aluminum Casing",
+            "X": 1000,
+            "Y": -800,
+            "Parent": 144,
+            "Inputs": {
+                "Aluminum Ingot": [
+                    18
+                ]
+            }
+        },
+        {
+            "Name": "Silicon High-Speed Connector",
+            "X": -200,
+            "Y": -500,
+            "Parent": 268,
+            "Inputs": {
+                "Quickwire": [
+                    90
+                ],
+                "Silica": [
+                    [
+                        268,
+                        1
+                    ]
+                ],
+                "Circuit Board": [
+                    [
+                        268,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 100,
+            "Y": -300,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        70,
+                        "Rubber"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 400,
+            "Y": -100,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        54,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 1500,
+            "Y": -600,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        24,
+                        1
+                    ]
+                ]
+            ],
+            "OutputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 1900,
+            "Y": -200,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        83,
+                        "Heat Sink"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -900,
+            "Y": -100,
+            "Parent": 144,
+            "ShowPpm": false,
+            "Capacity": "Pure",
+            "Max": "2",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": -200,
+            "Y": 0,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        23,
+                        "Petroleum Coke"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 600,
+            "Y": 100,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        61,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 400,
+            "Y": 0,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        59,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Electrode Circuit Board",
+            "X": 1200,
+            "Y": 0,
+            "Parent": 144,
+            "ShowPpm": true,
+            "Max": "50",
+            "Inputs": {
+                "Rubber": [
+                    69
+                ],
+                "Petroleum Coke": [
+                    [
+                        66,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 1400,
+            "Y": 100,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        62,
+                        "Circuit Board"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 1700,
+            "Y": 200,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        63,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": 1100,
+            "Y": 300,
+            "Parent": 144,
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    69
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 1300,
+            "Y": 300,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        65,
+                        "Petroleum Coke"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 1500,
+            "Y": 400,
+            "Parent": 144,
+            "Inputs": [
+                [
+                    [
+                        66,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Crude Oil",
+            "X": 600,
+            "Y": 300,
+            "Parent": 144
+        },
+        {
+            "Name": "Rubber",
+            "X": 900,
+            "Y": 200,
+            "Parent": 144,
+            "Inputs": {
+                "Crude Oil": [
+                    68
+                ]
+            }
+        },
+        {
+            "Name": "Rubber",
+            "X": -700,
+            "Y": -200,
+            "Parent": 144,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Crude Oil": [
+                    58
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": -200,
+            "Y": -200,
+            "InteriorInputs": [
+                [
+                    [
+                        26,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.9999999999999988,
+            "PanX": 136,
+            "PanY": 333
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -900,
+            "Y": -100,
+            "Parent": 71,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Crude Oil": [
+                    28
+                ]
+            },
+            "OutputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": -600,
+            "Y": -100,
+            "Parent": 71,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    72
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": -200,
+            "Y": -100,
+            "InteriorInputs": [
+                [
+                    [
+                        75,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 1.2999999999999998,
+            "PanX": -73,
+            "PanY": 167
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 500,
+            "Y": -300,
+            "Parent": 74,
+            "Inputs": [
+                [
+                    [
+                        81,
+                        "Circuit Board"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 200,
+            "Y": 0,
+            "Parent": 74,
+            "Inputs": [
+                [
+                    [
+                        80,
+                        "Petroleum Coke"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 300,
+            "Y": 100,
+            "Parent": 74,
+            "Inputs": [
+                [
+                    [
+                        76,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -600,
+            "Y": -300,
+            "Parent": 74
+        },
+        {
+            "Name": "Rubber",
+            "X": 0,
+            "Y": -400,
+            "Parent": 74,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Crude Oil": [
+                    78
+                ]
+            }
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": 0,
+            "Y": -100,
+            "Parent": 74,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    79
+                ]
+            }
+        },
+        {
+            "Name": "Electrode Circuit Board",
+            "X": 300,
+            "Y": -200,
+            "Parent": 74,
+            "Max": "4",
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Rubber": [
+                    79
+                ],
+                "Petroleum Coke": [
+                    [
+                        76,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 700,
+            "Y": -200,
+            "Parent": 74,
+            "Inputs": [
+                [
+                    [
+                        75,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Heat Exchanger",
+            "X": 1600,
+            "Y": -300,
+            "Parent": 144,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Aluminum Casing": [
+                    52,
+                    [
+                        56,
+                        0
+                    ]
+                ],
+                "Rubber": [
+                    [
+                        54,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Bauxite",
+            "X": -700,
+            "Y": -800,
+            "Parent": 144,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "Max": "2",
+            "ClockSpeed": "100"
+        },
+        {
+            "Name": "Outpost",
+            "X": -300,
+            "Y": 0,
+            "InteriorInputs": [
+                [
+                    [
+                        42,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 1.2999999999999998,
+            "PanX": 355,
+            "PanY": 244
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 7000,
+            "Y": -3400,
+            "Parent": 289,
+            "Inputs": [
+                [
+                    [
+                        100,
+                        "Quartz Crystal",
+                        [
+                            [
+                                6840,
+                                -3320
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 7200,
+            "Y": -3200,
+            "Parent": 289,
+            "Inputs": [
+                [
+                    [
+                        101,
+                        "Silica"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 7500,
+            "Y": -3100,
+            "Parent": 289,
+            "Inputs": [
+                [
+                    [
+                        87,
+                        1,
+                        [
+                            [
+                                7340,
+                                -3160
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 7200,
+            "Y": -3300,
+            "Parent": 289,
+            "Inputs": [
+                [
+                    [
+                        86,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Quickwire",
+            "X": -500,
+            "Y": -300,
+            "Parent": 268,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Caterium Ingot": [
+                    [
+                        268,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -200,
+            "Y": -300,
+            "Parent": 290
+        },
+        {
+            "Name": "Nitrogen Gas",
+            "X": -200,
+            "Y": -400,
+            "Parent": 290,
+            "Max": "3600"
+        },
+        {
+            "Name": "Iron Plate",
+            "X": -200,
+            "Y": -200,
+            "Parent": 290,
+            "Inputs": {
+                "Iron Ingot": [
+                    94
+                ]
+            }
+        },
+        {
+            "Name": "Iron Ingot",
+            "X": -400,
+            "Y": -200,
+            "Parent": 290,
+            "Inputs": {
+                "Iron Ore": [
+                    95
+                ]
+            }
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -500,
+            "Y": -400,
+            "Parent": 290,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Nitric Acid",
+            "X": 100,
+            "Y": -300,
+            "Parent": 290,
+            "Inputs": {
+                "Nitrogen Gas": [
+                    92
+                ],
+                "Water": [
+                    91
+                ],
+                "Iron Plate": [
+                    93
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 300,
+            "Y": -300,
+            "Parent": 290,
+            "Inputs": [
+                [
+                    [
+                        96,
+                        "Nitric Acid"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 500,
+            "Y": -200,
+            "Parent": 290,
+            "Inputs": [
+                [
+                    [
+                        97,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Water",
+            "X": 6500,
+            "Y": -2900,
+            "Parent": 289,
+            "ShowPpm": true,
+            "Max": "190"
+        },
+        {
+            "Name": "Quartz Purification",
+            "X": 6600,
+            "Y": -3200,
+            "Parent": 289,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Raw Quartz": [
+                    266
+                ],
+                "Nitric Acid": [
+                    [
+                        289,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Distilled Silica",
+            "X": 6900,
+            "Y": -3100,
+            "Parent": 289,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Dissolved Silica": [
+                    100
+                ],
+                "Limestone": [
+                    102
+                ],
+                "Water": [
+                    99,
+                    101
+                ]
+            }
+        },
+        {
+            "Name": "Limestone",
+            "X": 6500,
+            "Y": -3100,
+            "Parent": 289,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Stator",
+            "X": -700,
+            "Y": -1600,
+            "Parent": 195,
+            "Inputs": {
+                "Steel Pipe": [
+                    126
+                ],
+                "Wire": [
+                    129
+                ]
+            }
+        },
+        {
+            "Name": "Iron Ingot",
+            "X": -1100,
+            "Y": -1800,
+            "Parent": 195,
+            "Inputs": {
+                "Iron Ore": [
+                    106
+                ]
+            }
+        },
+        {
+            "Name": "Copper Ore",
+            "X": -1700,
+            "Y": -1500,
+            "Parent": 195,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -1700,
+            "Y": -1700,
+            "Parent": 195,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Copper Ingot",
+            "X": -1400,
+            "Y": -1400,
+            "Parent": 195,
+            "Inputs": {
+                "Copper Ore": [
+                    105
+                ]
+            }
+        },
+        {
+            "Name": "Automated Speed Wiring",
+            "X": -700,
+            "Y": -1400,
+            "Parent": 195,
+            "Inputs": {
+                "Stator": [
+                    103
+                ],
+                "Wire": [
+                    129
+                ],
+                "High-Speed Connector": [
+                    113
+                ]
+            }
+        },
+        {
+            "Name": "Quickwire",
+            "X": -1100,
+            "Y": -1300,
+            "Parent": 195,
+            "Inputs": {
+                "Caterium Ingot": [
+                    110
+                ]
+            }
+        },
+        {
+            "Name": "Pure Caterium Ingot",
+            "X": -1400,
+            "Y": -1200,
+            "Parent": 195,
+            "Inputs": {
+                "Caterium Ore": [
+                    111
+                ],
+                "Water": [
+                    123
+                ]
+            }
+        },
+        {
+            "Name": "Caterium Ore",
+            "X": -1700,
+            "Y": -1300,
+            "Parent": 195,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Silica",
+            "X": -1200,
+            "Y": -900,
+            "Parent": 195,
+            "Inputs": {
+                "Raw Quartz": [
+                    [
+                        195,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Silicon High-Speed Connector",
+            "X": -900,
+            "Y": -1100,
+            "Parent": 195,
+            "Inputs": {
+                "Quickwire": [
+                    109
+                ],
+                "Silica": [
+                    112
+                ],
+                "Circuit Board": [
+                    [
+                        195,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Modular Frame",
+            "X": -1000,
+            "Y": -600,
+            "Parent": 195,
+            "Inputs": {
+                "Reinforced Iron Plate": [
+                    118
+                ],
+                "Iron Rod": [
+                    115
+                ]
+            }
+        },
+        {
+            "Name": "Iron Rod",
+            "X": -1300,
+            "Y": -500,
+            "Parent": 195,
+            "Inputs": {
+                "Iron Ingot": [
+                    104
+                ]
+            }
+        },
+        {
+            "Name": "Steel Beam",
+            "X": -1200,
+            "Y": -400,
+            "Parent": 195,
+            "Inputs": {
+                "Steel Ingot": [
+                    117
+                ]
+            }
+        },
+        {
+            "Name": "Coke Steel Ingot",
+            "X": -1500,
+            "Y": -400,
+            "Parent": 195,
+            "Inputs": {
+                "Iron Ore": [
+                    106
+                ],
+                "Petroleum Coke": [
+                    [
+                        135,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Stitched Iron Plate",
+            "X": -1300,
+            "Y": -700,
+            "Parent": 195,
+            "Inputs": {
+                "Iron Plate": [
+                    119
+                ],
+                "Wire": [
+                    129
+                ]
+            }
+        },
+        {
+            "Name": "Iron Plate",
+            "X": -1500,
+            "Y": -800,
+            "Parent": 195,
+            "Inputs": {
+                "Iron Ingot": [
+                    104
+                ]
+            }
+        },
+        {
+            "Name": "Encased Industrial Beam",
+            "X": -900,
+            "Y": -400,
+            "Parent": 195,
+            "Inputs": {
+                "Steel Beam": [
+                    116
+                ],
+                "Concrete": [
+                    122
+                ]
+            }
+        },
+        {
+            "Name": "Limestone",
+            "X": -1800,
+            "Y": -200,
+            "Parent": 195,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Wet Concrete",
+            "X": -1600,
+            "Y": -200,
+            "Parent": 195,
+            "Inputs": {
+                "Limestone": [
+                    121
+                ],
+                "Water": [
+                    123
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -1900,
+            "Y": -1100,
+            "Parent": 195
+        },
+        {
+            "Name": "Molded Steel Pipe",
+            "X": -800,
+            "Y": -200,
+            "Parent": 195,
+            "Inputs": {
+                "Steel Ingot": [
+                    117
+                ],
+                "Concrete": [
+                    122
+                ]
+            }
+        },
+        {
+            "Name": "Heavy Encased Frame",
+            "X": -700,
+            "Y": -1000,
+            "Parent": 195,
+            "Inputs": {
+                "Modular Frame": [
+                    114
+                ],
+                "Encased Industrial Beam": [
+                    120
+                ],
+                "Steel Pipe": [
+                    124
+                ],
+                "Concrete": [
+                    122
+                ]
+            }
+        },
+        {
+            "Name": "Iron Pipe",
+            "X": -800,
+            "Y": -1700,
+            "Parent": 195,
+            "Inputs": {
+                "Iron Ingot": [
+                    104
+                ]
+            }
+        },
+        {
+            "Name": "Adaptive Control Unit",
+            "X": -400,
+            "Y": -900,
+            "Parent": 195,
+            "Inputs": {
+                "Automated Wiring": [
+                    108
+                ],
+                "Circuit Board": [
+                    [
+                        195,
+                        1
+                    ]
+                ],
+                "Heavy Modular Frame": [
+                    125
+                ],
+                "Computer": [
+                    128
+                ]
+            },
+            "InputOrder": [
+                0,
+                2
+            ]
+        },
+        {
+            "Name": "Computer",
+            "X": -500,
+            "Y": -800,
+            "Parent": 195,
+            "Inputs": {
+                "Circuit Board": [
+                    [
+                        195,
+                        1
+                    ]
+                ],
+                "Cable": [
+                    130
+                ],
+                "Plastic": [
+                    137
+                ]
+            }
+        },
+        {
+            "Name": "Wire",
+            "X": -1000,
+            "Y": -1500,
+            "Parent": 195,
+            "Inputs": {
+                "Copper Ingot": [
+                    107
+                ]
+            }
+        },
+        {
+            "Name": "Coated Cable",
+            "X": -700,
+            "Y": -1200,
+            "Parent": 195,
+            "Inputs": {
+                "Wire": [
+                    129
+                ],
+                "Heavy Oil Residue": [
+                    131
+                ]
+            }
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -2000,
+            "Y": -500,
+            "Parent": 195,
+            "Inputs": {
+                "Crude Oil": [
+                    133
+                ]
+            }
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -1900,
+            "Y": -100,
+            "Parent": 195,
+            "Inputs": [
+                [
+                    [
+                        131,
+                        "Polymer Resin"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -2100,
+            "Y": -1000,
+            "Parent": 195,
+            "Max": "120"
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": -1800,
+            "Y": -400,
+            "Parent": 195,
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    131,
+                    137
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": -1600,
+            "Y": 0,
+            "Parent": 195,
+            "Inputs": [
+                [
+                    [
+                        134,
+                        "Petroleum Coke"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -1300,
+            "Y": 0,
+            "Parent": 195,
+            "Inputs": [
+                [
+                    [
+                        135,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Plastic",
+            "X": -2100,
+            "Y": -300,
+            "Parent": 195,
+            "Inputs": {
+                "Crude Oil": [
+                    133
+                ]
+            }
+        },
+        {
+            "Name": "Plastic AI Limiter",
+            "X": -300,
+            "Y": -500,
+            "Parent": 195,
+            "Inputs": {
+                "Quickwire": [
+                    109
+                ],
+                "Plastic": [
+                    137
+                ]
+            }
+        },
+        {
+            "Name": "Supercomputer",
+            "X": -100,
+            "Y": -300,
+            "Parent": 195,
+            "Inputs": {
+                "Computer": [
+                    128
+                ],
+                "AI Limiter": [
+                    138
+                ],
+                "High-Speed Connector": [
+                    113
+                ],
+                "Plastic": [
+                    137
+                ]
+            }
+        },
+        {
+            "Name": "Assembly Director System",
+            "X": -100,
+            "Y": -800,
+            "Parent": 195,
+            "Inputs": {
+                "Adaptive Control Unit": [
+                    127
+                ],
+                "Supercomputer": [
+                    139
+                ]
+            }
+        },
+        {
+            "Name": "Space Elevator Phase 4",
+            "X": 500,
+            "Y": -600,
+            "Parent": 195,
+            "Inputs": {
+                "Assembly Director System": [
+                    140
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -1077,
+            "Y": -162,
+            "Parent": 285,
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Priority Merger",
+            "X": -792,
+            "Y": -161,
+            "Parent": 285,
+            "Inputs": [
+                [
+                    [
+                        200,
+                        "Water"
+                    ]
+                ],
+                [
+                    [
+                        142,
+                        "Water"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Outpost",
+            "X": -200,
+            "Y": -500,
+            "InteriorInputs": [
+                [
+                    [
+                        24,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        63,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        57,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.769230769230769,
+            "PanX": -585,
+            "PanY": 392,
+            "Title": "Aluminium"
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -202,
+            "Y": 215,
+            "Parent": 285,
+            "Capacity": "Mk.5 Belt",
+            "Inputs": [
+                [
+                    [
+                        147,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Dimensional Depot",
+            "X": -195,
+            "Y": 109,
+            "Parent": 285,
+            "Inputs": [
+                [
+                    [
+                        147,
+                        0
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": -411,
+            "Y": 169,
+            "Parent": 285,
+            "Inputs": [
+                [
+                    [
+                        194,
+                        "Fabric"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Water",
+            "X": -839,
+            "Y": 299,
+            "Parent": 285,
+            "ClockSpeed": "166.66667"
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": -585,
+            "Y": 65,
+            "Parent": 285,
+            "ClockSpeed": "125",
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    151
+                ]
+            }
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -1129,
+            "Y": 136,
+            "Parent": 285,
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -880,
+            "Y": 95,
+            "Parent": 285,
+            "ClockSpeed": "125",
+            "Inputs": {
+                "Crude Oil": [
+                    150
+                ]
+            }
+        },
+        {
+            "Name": "Caterium Circuit Board",
+            "X": -843,
+            "Y": -99,
+            "Parent": 251,
+            "Inputs": {
+                "Plastic": [
+                    [
+                        251,
+                        1
+                    ]
+                ],
+                "Quickwire": [
+                    227
+                ]
+            }
+        },
+        {
+            "Name": "Crystal Computer",
+            "X": -528,
+            "Y": -313,
+            "Parent": 251,
+            "Inputs": {
+                "Circuit Board": [
+                    152
+                ],
+                "Crystal Oscillator": [
+                    156
+                ]
+            }
+        },
+        {
+            "Name": "Supercomputer",
+            "X": -312,
+            "Y": -130,
+            "Parent": 251,
+            "Inputs": {
+                "Computer": [
+                    153
+                ],
+                "AI Limiter": [
+                    155
+                ],
+                "High-Speed Connector": [
+                    226
+                ],
+                "Plastic": [
+                    [
+                        251,
+                        1
+                    ]
+                ]
+            },
+            "InputOrder": [
+                3,
+                2
+            ]
+        },
+        {
+            "Name": "Plastic AI Limiter",
+            "X": -729,
+            "Y": 132,
+            "Parent": 251,
+            "Inputs": {
+                "Quickwire": [
+                    227
+                ],
+                "Plastic": [
+                    [
+                        251,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Insulated Crystal Oscillator",
+            "X": -651,
+            "Y": -30,
+            "Parent": 251,
+            "Inputs": {
+                "Quartz Crystal": [
+                    [
+                        251,
+                        5
+                    ]
+                ],
+                "Rubber": [
+                    [
+                        251,
+                        6
+                    ]
+                ],
+                "AI Limiter": [
+                    155
+                ]
+            }
+        },
+        {
+            "Name": "Adaptive Control Unit",
+            "X": -409,
+            "Y": -423,
+            "Parent": 251,
+            "Inputs": {
+                "Automated Wiring": [
+                    201
+                ],
+                "Circuit Board": [
+                    152
+                ],
+                "Heavy Modular Frame": [
+                    [
+                        251,
+                        7
+                    ]
+                ],
+                "Computer": [
+                    153
+                ]
+            }
+        },
+        {
+            "Name": "Steel Pipe",
+            "X": -911,
+            "Y": -868,
+            "Parent": 251,
+            "Inputs": {
+                "Steel Ingot": [
+                    [
+                        251,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Modular Engine",
+            "X": -291,
+            "Y": -283,
+            "Parent": 294,
+            "Inputs": {
+                "Motor": [
+                    197
+                ],
+                "Rubber": [
+                    [
+                        294,
+                        6
+                    ]
+                ],
+                "Smart Plating": [
+                    196
+                ]
+            }
+        },
+        {
+            "Name": "Plastic AI Limiter",
+            "X": -810,
+            "Y": -614,
+            "Parent": 294,
+            "Inputs": {
+                "Quickwire": [
+                    167
+                ],
+                "Plastic": [
+                    [
+                        294,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Electromagnetic Control Rod",
+            "X": -456,
+            "Y": -592,
+            "Parent": 294,
+            "Inputs": {
+                "Stator": [
+                    163
+                ],
+                "AI Limiter": [
+                    160
+                ]
+            }
+        },
+        {
+            "Name": "Fused Wire",
+            "X": -819,
+            "Y": -813,
+            "Parent": 294,
+            "Inputs": {
+                "Copper Ingot": [
+                    [
+                        294,
+                        3
+                    ]
+                ],
+                "Caterium Ingot": [
+                    [
+                        294,
+                        2
+                    ]
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Stator",
+            "X": -609,
+            "Y": -741,
+            "Parent": 294,
+            "Inputs": {
+                "Steel Pipe": [
+                    164
+                ],
+                "Wire": [
+                    162
+                ]
+            }
+        },
+        {
+            "Name": "Steel Pipe",
+            "X": -777,
+            "Y": -938,
+            "Parent": 294,
+            "Inputs": {
+                "Steel Ingot": [
+                    [
+                        294,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Alclad Casing",
+            "X": -976,
+            "Y": -7,
+            "Parent": 294,
+            "Inputs": {
+                "Aluminum Ingot": [
+                    [
+                        294,
+                        1
+                    ]
+                ],
+                "Copper Ingot": [
+                    [
+                        294,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Caterium Circuit Board",
+            "X": -1090,
+            "Y": 153,
+            "Parent": 294,
+            "Inputs": {
+                "Plastic": [
+                    [
+                        294,
+                        4
+                    ]
+                ],
+                "Quickwire": [
+                    167
+                ]
+            }
+        },
+        {
+            "Name": "Fused Quickwire",
+            "X": -1019,
+            "Y": -715,
+            "Parent": 294,
+            "Inputs": {
+                "Caterium Ingot": [
+                    [
+                        294,
+                        2
+                    ]
+                ],
+                "Copper Ingot": [
+                    [
+                        294,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Radio Control System",
+            "X": -667,
+            "Y": 52,
+            "Parent": 294,
+            "Inputs": {
+                "Crystal Oscillator": [
+                    169
+                ],
+                "Circuit Board": [
+                    166
+                ],
+                "Aluminum Casing": [
+                    165
+                ],
+                "Rubber": [
+                    [
+                        294,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Insulated Crystal Oscillator",
+            "X": -778,
+            "Y": 163,
+            "Parent": 294,
+            "Inputs": {
+                "Quartz Crystal": [
+                    [
+                        294,
+                        8
+                    ]
+                ],
+                "Rubber": [
+                    [
+                        294,
+                        6
+                    ]
+                ],
+                "AI Limiter": [
+                    170
+                ]
+            }
+        },
+        {
+            "Name": "Plastic AI Limiter",
+            "X": -963,
+            "Y": 280,
+            "Parent": 294,
+            "Inputs": {
+                "Quickwire": [
+                    167
+                ],
+                "Plastic": [
+                    [
+                        294,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Cooling Device",
+            "X": -197,
+            "Y": 62,
+            "Parent": 294,
+            "Inputs": {
+                "Heat Sink": [
+                    172
+                ],
+                "Motor": [
+                    197
+                ],
+                "Nitrogen Gas": [
+                    [
+                        294,
+                        9
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Heat Exchanger",
+            "X": -300,
+            "Y": 213,
+            "Parent": 294,
+            "Inputs": {
+                "Aluminum Casing": [
+                    165
+                ],
+                "Rubber": [
+                    [
+                        294,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Assembly Director System",
+            "X": -198,
+            "Y": -199,
+            "Parent": 251,
+            "ShowPpm": true,
+            "Max": "2",
+            "Inputs": {
+                "Adaptive Control Unit": [
+                    157
+                ],
+                "Supercomputer": [
+                    154
+                ]
+            }
+        },
+        {
+            "Name": "Thermal Propulsion Rocket",
+            "X": -77,
+            "Y": -135,
+            "Parent": 294,
+            "ShowPpm": true,
+            "Max": "1",
+            "Inputs": {
+                "Modular Engine": [
+                    159
+                ],
+                "Turbo Motor": [
+                    199
+                ],
+                "Cooling System": [
+                    171
+                ],
+                "Fused Modular Frame": [
+                    [
+                        294,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Versatile Framework",
+            "X": -688,
+            "Y": -353,
+            "Parent": 252,
+            "Inputs": {
+                "Modular Frame": [
+                    [
+                        252,
+                        0
+                    ]
+                ],
+                "Steel Beam": [
+                    176
+                ]
+            }
+        },
+        {
+            "Name": "Aluminum Beam",
+            "X": -1050,
+            "Y": -331,
+            "Parent": 252,
+            "Inputs": {
+                "Aluminum Ingot": [
+                    [
+                        252,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Magnetic Field Generator",
+            "X": -486,
+            "Y": -56,
+            "Parent": 252,
+            "ShowPpm": true,
+            "Max": "2",
+            "Inputs": {
+                "Versatile Framework": [
+                    175
+                ],
+                "Electromagnetic Control Rod": [
+                    180
+                ]
+            }
+        },
+        {
+            "Name": "Plastic AI Limiter",
+            "X": -928,
+            "Y": 9,
+            "Parent": 252,
+            "Inputs": {
+                "Quickwire": [
+                    179
+                ],
+                "Plastic": [
+                    [
+                        252,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Fused Quickwire",
+            "X": -1146,
+            "Y": -80,
+            "Parent": 252,
+            "Inputs": {
+                "Caterium Ingot": [
+                    [
+                        252,
+                        4
+                    ]
+                ],
+                "Copper Ingot": [
+                    [
+                        252,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Electromagnetic Control Rod",
+            "X": -757,
+            "Y": -62,
+            "Parent": 252,
+            "Inputs": {
+                "Stator": [
+                    182
+                ],
+                "AI Limiter": [
+                    178
+                ]
+            }
+        },
+        {
+            "Name": "Fused Wire",
+            "X": -1292,
+            "Y": -205,
+            "Parent": 252,
+            "Inputs": {
+                "Copper Ingot": [
+                    [
+                        252,
+                        5
+                    ]
+                ],
+                "Caterium Ingot": [
+                    [
+                        252,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Stator",
+            "X": -863,
+            "Y": -174,
+            "Parent": 252,
+            "Inputs": {
+                "Steel Pipe": [
+                    183
+                ],
+                "Wire": [
+                    181
+                ]
+            }
+        },
+        {
+            "Name": "Steel Pipe",
+            "X": -1197,
+            "Y": -297,
+            "Parent": 252,
+            "Inputs": {
+                "Steel Ingot": [
+                    [
+                        252,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Pressure Conversion Cube",
+            "X": -512,
+            "Y": -72,
+            "Parent": 293,
+            "Inputs": {
+                "Fused Modular Frame": [
+                    [
+                        293,
+                        1
+                    ]
+                ],
+                "Radio Control Unit": [
+                    188
+                ]
+            }
+        },
+        {
+            "Name": "Alclad Casing",
+            "X": -1219,
+            "Y": 60,
+            "Parent": 293,
+            "Inputs": {
+                "Aluminum Ingot": [
+                    [
+                        293,
+                        3
+                    ]
+                ],
+                "Copper Ingot": [
+                    [
+                        293,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Caterium Circuit Board",
+            "X": -1226,
+            "Y": -128,
+            "Parent": 293,
+            "Inputs": {
+                "Plastic": [
+                    [
+                        293,
+                        4
+                    ]
+                ],
+                "Quickwire": [
+                    187
+                ]
+            }
+        },
+        {
+            "Name": "Fused Quickwire",
+            "X": -1460,
+            "Y": -78,
+            "Parent": 293,
+            "Inputs": {
+                "Caterium Ingot": [
+                    [
+                        293,
+                        5
+                    ]
+                ],
+                "Copper Ingot": [
+                    [
+                        293,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Radio Control System",
+            "X": -949,
+            "Y": -27,
+            "Parent": 293,
+            "Inputs": {
+                "Crystal Oscillator": [
+                    189
+                ],
+                "Circuit Board": [
+                    186
+                ],
+                "Aluminum Casing": [
+                    185
+                ],
+                "Rubber": [
+                    [
+                        293,
+                        2
+                    ]
+                ]
+            },
+            "InputOrder": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "Name": "Insulated Crystal Oscillator",
+            "X": -1033,
+            "Y": -329,
+            "Parent": 293,
+            "Inputs": {
+                "Quartz Crystal": [
+                    [
+                        293,
+                        7
+                    ]
+                ],
+                "Rubber": [
+                    [
+                        293,
+                        2
+                    ]
+                ],
+                "AI Limiter": [
+                    190
+                ]
+            }
+        },
+        {
+            "Name": "Plastic AI Limiter",
+            "X": -1304,
+            "Y": -378,
+            "Parent": 293,
+            "Inputs": {
+                "Quickwire": [
+                    187
+                ],
+                "Plastic": [
+                    [
+                        293,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Space Elevator Phase 4",
+            "X": 420,
+            "Y": -1275,
+            "ShowPpm": true,
+            "Max": "2",
+            "Inputs": {
+                "Assembly Director System": [
+                    [
+                        291,
+                        0
+                    ]
+                ],
+                "Magnetic Field Generator": [
+                    [
+                        291,
+                        2
+                    ]
+                ],
+                "Nuclear Pasta": [
+                    [
+                        192,
+                        0
+                    ]
+                ],
+                "Thermal Propulsion Rocket": [
+                    [
+                        291,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 391,
+            "Y": -1014,
+            "Inputs": [
+                [
+                    [
+                        291,
+                        3
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 579,
+            "Y": -980,
+            "Capacity": "Mk.5 Belt",
+            "Inputs": [
+                [
+                    [
+                        192,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Polyester Fabric",
+            "X": -612,
+            "Y": 202,
+            "Parent": 285,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Polymer Resin": [
+                    151
+                ],
+                "Water": [
+                    148
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": 200,
+            "Y": 300,
+            "Inputs": [
+                [],
+                []
+            ],
+            "Zoom": 1.033699200816281,
+            "PanX": 475,
+            "PanY": 765,
+            "Title": "Mega Factory"
+        },
+        {
+            "Name": "Plastic Smart Plating",
+            "X": -473,
+            "Y": -234,
+            "Parent": 294,
+            "Inputs": {
+                "Reinforced Iron Plate": [
+                    [
+                        294,
+                        5
+                    ]
+                ],
+                "Rotor": [
+                    198
+                ],
+                "Plastic": [
+                    [
+                        294,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Electric Motor",
+            "X": -448,
+            "Y": -378,
+            "Parent": 294,
+            "Inputs": {
+                "Electromagnetic Control Rod": [
+                    161
+                ],
+                "Rotor": [
+                    198
+                ]
+            }
+        },
+        {
+            "Name": "Steel Rotor",
+            "X": -600,
+            "Y": -400,
+            "Parent": 294,
+            "Inputs": {
+                "Steel Pipe": [
+                    164
+                ],
+                "Wire": [
+                    162
+                ]
+            }
+        },
+        {
+            "Name": "Turbo Electric Motor",
+            "X": -424,
+            "Y": 74,
+            "Parent": 294,
+            "Inputs": {
+                "Motor": [
+                    197
+                ],
+                "Radio Control Unit": [
+                    168
+                ],
+                "Electromagnetic Control Rod": [
+                    161
+                ],
+                "Rotor": [
+                    198
+                ]
+            }
+        },
+        {
+            "Name": "Electrode Aluminum Scrap",
+            "X": -188,
+            "Y": -267,
+            "Parent": 285,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Alumina Solution": [
+                    267
+                ],
+                "Petroleum Coke": [
+                    149
+                ]
+            }
+        },
+        {
+            "Name": "Automated Speed Wiring",
+            "X": -506,
+            "Y": -564,
+            "Parent": 251,
+            "Inputs": {
+                "Stator": [
+                    224
+                ],
+                "Wire": [
+                    225
+                ],
+                "High-Speed Connector": [
+                    226
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -500,
+            "Y": 0,
+            "Parent": 257
+        },
+        {
+            "Name": "Diluted Packaged Fuel",
+            "X": -100,
+            "Y": 0,
+            "Parent": 247,
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    208
+                ],
+                "Packaged Water": [
+                    204
+                ]
+            }
+        },
+        {
+            "Name": "Packaged Water",
+            "X": -300,
+            "Y": 0,
+            "Parent": 247,
+            "Inputs": {
+                "Water": [
+                    209
+                ],
+                "Empty Canister": [
+                    205
+                ]
+            }
+        },
+        {
+            "Name": "Unpackage Fuel",
+            "X": -100,
+            "Y": -400,
+            "Parent": 247,
+            "Inputs": {
+                "Packaged Fuel": [
+                    203
+                ]
+            }
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -500,
+            "Y": -300,
+            "Parent": 247,
+            "Max": "1200"
+        },
+        {
+            "Name": "Residual Rubber",
+            "X": -100,
+            "Y": 200,
+            "Parent": 247,
+            "Inputs": {
+                "Polymer Resin": [
+                    208
+                ],
+                "Water": [
+                    209
+                ]
+            }
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -300,
+            "Y": -100,
+            "Parent": 247,
+            "Inputs": {
+                "Crude Oil": [
+                    206
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -600,
+            "Y": 100,
+            "Parent": 247
+        },
+        {
+            "Name": "Residual Plastic",
+            "X": -100,
+            "Y": 300,
+            "Parent": 247,
+            "Inputs": {
+                "Polymer Resin": [
+                    208
+                ],
+                "Water": [
+                    209
+                ]
+            }
+        },
+        {
+            "Name": "Caterium Ore",
+            "X": -400,
+            "Y": -500,
+            "Parent": 287,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Tempered Caterium Ingot",
+            "X": -200,
+            "Y": -400,
+            "Parent": 287,
+            "Inputs": {
+                "Caterium Ore": [
+                    211
+                ],
+                "Petroleum Coke": [
+                    213
+                ]
+            }
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": -400,
+            "Y": -400,
+            "Parent": 287,
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    215
+                ]
+            }
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -500,
+            "Y": -300,
+            "Parent": 287,
+            "Inputs": [
+                [
+                    [
+                        215,
+                        "Polymer Resin"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -600,
+            "Y": -400,
+            "Parent": 287,
+            "Inputs": {
+                "Crude Oil": [
+                    216
+                ]
+            }
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -700,
+            "Y": -500,
+            "Parent": 287
+        },
+        {
+            "Name": "Petroleum Coke",
+            "X": -300,
+            "Y": -500,
+            "Parent": 288,
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    219
+                ]
+            }
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -300,
+            "Y": -300,
+            "Parent": 288,
+            "Inputs": [
+                [
+                    [
+                        219,
+                        "Polymer Resin"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -500,
+            "Y": -400,
+            "Parent": 288,
+            "Inputs": {
+                "Crude Oil": [
+                    220
+                ]
+            }
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -700,
+            "Y": -500,
+            "Parent": 288
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -600,
+            "Y": -600,
+            "Parent": 248,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Pure Iron Ingot",
+            "X": -400,
+            "Y": -500,
+            "Parent": 248,
+            "Inputs": {
+                "Iron Ore": [
+                    221
+                ],
+                "Water": [
+                    223
+                ]
+            }
+        },
+        {
+            "Name": "Water",
+            "X": -600,
+            "Y": -500,
+            "Parent": 248
+        },
+        {
+            "Name": "Stator",
+            "X": -718,
+            "Y": -807,
+            "Parent": 251,
+            "Inputs": {
+                "Steel Pipe": [
+                    158
+                ],
+                "Wire": [
+                    225
+                ]
+            }
+        },
+        {
+            "Name": "Fused Wire",
+            "X": -720,
+            "Y": -681,
+            "Parent": 251,
+            "Inputs": {
+                "Copper Ingot": [
+                    [
+                        251,
+                        3
+                    ]
+                ],
+                "Caterium Ingot": [
+                    [
+                        251,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Silicon High-Speed Connector",
+            "X": -516,
+            "Y": -160,
+            "Parent": 251,
+            "Inputs": {
+                "Quickwire": [
+                    227
+                ],
+                "Silica": [
+                    [
+                        251,
+                        2
+                    ]
+                ],
+                "Circuit Board": [
+                    152
+                ]
+            }
+        },
+        {
+            "Name": "Quickwire",
+            "X": -700,
+            "Y": -500,
+            "Parent": 251,
+            "Inputs": {
+                "Caterium Ingot": [
+                    [
+                        251,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Recycled Plastic",
+            "X": 300,
+            "Y": -100,
+            "Parent": 247,
+            "Inputs": {
+                "Rubber": [
+                    207,
+                    231
+                ],
+                "Fuel": [
+                    205
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 500,
+            "Y": 0,
+            "Parent": 247,
+            "Inputs": [
+                [
+                    [
+                        228,
+                        "Plastic"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 700,
+            "Y": 100,
+            "Parent": 247,
+            "Inputs": [
+                [
+                    [
+                        229,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Recycled Rubber",
+            "X": 300,
+            "Y": -500,
+            "Parent": 247,
+            "Inputs": {
+                "Plastic": [
+                    228,
+                    210
+                ],
+                "Fuel": [
+                    205
+                ]
+            },
+            "InputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 600,
+            "Y": -600,
+            "Parent": 247,
+            "Inputs": [
+                [
+                    [
+                        231,
+                        "Rubber"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 700,
+            "Y": -500,
+            "Parent": 247,
+            "Inputs": [
+                [
+                    [
+                        232,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Coke Steel Ingot",
+            "X": -200,
+            "Y": -600,
+            "Parent": 288,
+            "Inputs": {
+                "Iron Ore": [
+                    236
+                ],
+                "Petroleum Coke": [
+                    217
+                ]
+            }
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 0,
+            "Y": -700,
+            "Parent": 288,
+            "Inputs": [
+                [
+                    [
+                        234,
+                        "Steel Ingot"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -400,
+            "Y": -600,
+            "Parent": 288,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "Max": "1",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 100,
+            "Y": -100,
+            "Parent": 288,
+            "Inputs": [
+                [
+                    [
+                        241,
+                        "Steel Ingot"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Coal",
+            "X": -300,
+            "Y": 0,
+            "Parent": 288,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 300,
+            "Y": 0,
+            "Parent": 288,
+            "Inputs": [
+                [
+                    [
+                        237,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Iron Ingot",
+            "X": -300,
+            "Y": -200,
+            "Parent": 288,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Iron Ore": [
+                    246
+                ]
+            }
+        },
+        {
+            "Name": "Solid Steel Ingot",
+            "X": -100,
+            "Y": -100,
+            "Parent": 288,
+            "ClockSpeed": "150",
+            "Inputs": {
+                "Iron Ingot": [
+                    240
+                ],
+                "Coal": [
+                    238
+                ]
+            }
+        },
+        {
+            "Name": "Copper Powder",
+            "X": 248,
+            "Y": -265,
+            "Parent": 250,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Copper Ingot": [
+                    17
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 484,
+            "Y": -235,
+            "Parent": 250,
+            "Inputs": [
+                [
+                    [
+                        242,
+                        "Copper Powder"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 681,
+            "Y": -172,
+            "Parent": 250,
+            "Capacity": "Mk.5 Belt",
+            "Inputs": [
+                [
+                    [
+                        243,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Copper Ore",
+            "X": -442,
+            "Y": -387,
+            "Parent": 250,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "Max": "3",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Iron Ore",
+            "X": -600,
+            "Y": -200,
+            "Parent": 288,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Max": "2.5",
+            "ClockSpeed": "200"
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1500,
+            "InteriorInputs": [
+                [
+                    [
+                        229,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        232,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.9741031983789162,
+            "PanX": -232,
+            "PanY": 156,
+            "Title": "Oil Megabase"
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1400,
+            "InteriorInputs": [
+                [
+                    [
+                        222,
+                        "Iron Ingot"
+                    ]
+                ]
+            ],
+            "Zoom": 0.7493101525991663,
+            "PanX": 0,
+            "PanY": 0,
+            "Title": "Iron"
+        },
+        {
+            "Name": "Nitrogen Gas",
+            "X": -600,
+            "Y": -1300
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1200,
+            "InteriorInputs": [
+                [
+                    [
+                        243,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.8086166400877419,
+            "PanX": -164,
+            "PanY": 458,
+            "Title": "Copper Powder"
+        },
+        {
+            "Name": "Outpost",
+            "X": -158,
+            "Y": -451,
+            "Parent": 291,
+            "Inputs": [
+                [
+                    [
+                        291,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        2
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        4
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        5
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        6
+                    ]
+                ],
+                [
+                    [
+                        295,
+                        2
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        173,
+                        "Assembly Director System"
+                    ]
+                ]
+            ],
+            "Zoom": 0.6865393450588622,
+            "PanX": 534,
+            "PanY": 354,
+            "Title": "Assemby Director Systems"
+        },
+        {
+            "Name": "Outpost",
+            "X": -144,
+            "Y": 458,
+            "Parent": 291,
+            "Inputs": [
+                [
+                    [
+                        295,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        8
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        4
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        3
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        177,
+                        "Magnetic Field Generator"
+                    ]
+                ]
+            ],
+            "Zoom": 0.7802285834925671,
+            "PanX": 786,
+            "PanY": 216,
+            "Title": "Magnetic Field Generator"
+        },
+        {
+            "Name": "Pure Aluminum Ingot",
+            "X": 142,
+            "Y": -182,
+            "Parent": 285,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Aluminum Scrap": [
+                    200
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 400,
+            "Y": 0,
+            "Parent": 285,
+            "Inputs": [
+                [
+                    [
+                        253,
+                        "Aluminum Ingot"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 600,
+            "Y": 100,
+            "Parent": 285,
+            "Inputs": [
+                [
+                    [
+                        254,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Bauxite",
+            "X": -979,
+            "Y": -399,
+            "Parent": 285,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "Max": "1500"
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1100,
+            "InteriorInputs": [
+                [
+                    [
+                        259,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 1.266334157892591,
+            "PanX": 99,
+            "PanY": 33,
+            "Title": "Copper"
+        },
+        {
+            "Name": "Pure Copper Ingot",
+            "X": -200,
+            "Y": -100,
+            "Parent": 257,
+            "Inputs": {
+                "Copper Ore": [
+                    261
+                ],
+                "Water": [
+                    202
+                ]
+            }
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 0,
+            "Y": 0,
+            "Parent": 257,
+            "Inputs": [
+                [
+                    [
+                        258,
+                        "Copper Ingot"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 200,
+            "Y": 100,
+            "Parent": 257,
+            "Inputs": [
+                [
+                    [
+                        259,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Copper Ore",
+            "X": -400,
+            "Y": -200,
+            "Parent": 257,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Max": "1",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 500,
+            "Y": -600,
+            "Parent": 286,
+            "Inputs": [
+                [
+                    [
+                        263,
+                        1
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Priority Splitter",
+            "X": 200,
+            "Y": -700,
+            "Parent": 286,
+            "Inputs": [
+                [
+                    [
+                        265,
+                        "Concrete"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Limestone",
+            "X": -400,
+            "Y": -700,
+            "Parent": 286,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Max": "1",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Fine Concrete",
+            "X": -100,
+            "Y": -400,
+            "Parent": 286,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Silica": [
+                    [
+                        286,
+                        0
+                    ]
+                ],
+                "Limestone": [
+                    264
+                ]
+            }
+        },
+        {
+            "Name": "Raw Quartz",
+            "X": 6500,
+            "Y": -3500,
+            "Parent": 289,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Sloppy Alumina",
+            "X": -647,
+            "Y": -296,
+            "Parent": 285,
+            "ClockSpeed": "187.5",
+            "Inputs": {
+                "Bauxite": [
+                    256
+                ],
+                "Water": [
+                    [
+                        143,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": 400,
+            "Y": -200,
+            "Inputs": [
+                [
+                    [
+                        144,
+                        2
+                    ]
+                ],
+                [
+                    [
+                        289,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        289,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        71,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        144,
+                        1
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        269,
+                        "Radio Control Unit"
+                    ]
+                ]
+            ],
+            "Zoom": 0.769230769230769,
+            "PanX": 433,
+            "PanY": 570
+        },
+        {
+            "Name": "Radio Connection Unit",
+            "X": 236,
+            "Y": -614,
+            "Parent": 268,
+            "ShowPpm": true,
+            "Inputs": {
+                "Heat Sink": [
+                    [
+                        268,
+                        0
+                    ]
+                ],
+                "High-Speed Connector": [
+                    53
+                ],
+                "Quartz Crystal": [
+                    [
+                        268,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": 600,
+            "Y": 0,
+            "Inputs": [
+                [
+                    [
+                        268,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        144,
+                        2
+                    ]
+                ],
+                [
+                    [
+                        85,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        51,
+                        0
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        49,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        47,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 1.2999999999999998,
+            "PanX": 43,
+            "PanY": 413
+        },
+        {
+            "Name": "Turbo Motor",
+            "X": -100,
+            "Y": -400,
+            "Parent": 270,
+            "ShowPpm": true,
+            "Inputs": {
+                "Cooling System": [
+                    [
+                        48,
+                        0
+                    ]
+                ],
+                "Radio Control Unit": [
+                    [
+                        270,
+                        0
+                    ]
+                ],
+                "Motor": [
+                    [
+                        270,
+                        2
+                    ]
+                ],
+                "Rubber": [
+                    [
+                        270,
+                        3
+                    ]
+                ]
+            },
+            "InputOrder": [
+                1,
+                2
+            ]
+        },
+        {
+            "Name": "Outpost",
+            "X": -115,
+            "Y": -677,
+            "InteriorInputs": [
+                [
+                    [
+                        9,
+                        "Heavy Modular Frame"
+                    ]
+                ]
+            ],
+            "Zoom": 0.5917159763313602,
+            "PanX": 479,
+            "PanY": 899
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -800,
+            "Zoom": 0.7493101525991666,
+            "PanX": 95,
+            "PanY": 137,
+            "Title": "Rocket Fuel Power Station"
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": 100,
+            "Y": -300,
+            "Parent": 273,
+            "Inputs": [
+                [
+                    [
+                        284,
+                        "Compacted Coal"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "AWESOME Sink",
+            "X": -300,
+            "Y": -700,
+            "Parent": 273,
+            "Inputs": [
+                [
+                    [
+                        282,
+                        "Polymer Resin"
+                    ]
+                ]
+            ]
+        },
+        {
+            "Name": "Water",
+            "X": -700,
+            "Y": -400,
+            "Parent": 273
+        },
+        {
+            "Name": "Nitrogen Gas",
+            "X": -700,
+            "Y": -300,
+            "Parent": 273
+        },
+        {
+            "Name": "Coal",
+            "X": -700,
+            "Y": 0,
+            "Parent": 273,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure"
+        },
+        {
+            "Name": "Sulfur",
+            "X": -700,
+            "Y": -200,
+            "Parent": 273,
+            "ShowPpm": false,
+            "Machine": "Miner Mk.3",
+            "Capacity": "Pure",
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Crude Oil",
+            "X": -700,
+            "Y": -700,
+            "Parent": 273,
+            "ShowPpm": false,
+            "ClockSpeed": "250"
+        },
+        {
+            "Name": "Rocket Fuel Generator",
+            "X": 300,
+            "Y": -400,
+            "Parent": 273,
+            "Max": "86.4",
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Rocket Fuel": [
+                    284
+                ]
+            }
+        },
+        {
+            "Name": "Heavy Oil Residue",
+            "X": -500,
+            "Y": -600,
+            "Parent": 273,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Crude Oil": [
+                    280
+                ]
+            },
+            "OutputOrder": [
+                1
+            ]
+        },
+        {
+            "Name": "Diluted Fuel",
+            "X": -300,
+            "Y": -500,
+            "Parent": 273,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Heavy Oil Residue": [
+                    282
+                ],
+                "Water": [
+                    276
+                ]
+            }
+        },
+        {
+            "Name": "Nitro Rocket Fuel",
+            "X": -200,
+            "Y": -400,
+            "Parent": 273,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Fuel": [
+                    283
+                ],
+                "Nitrogen Gas": [
+                    277
+                ],
+                "Sulfur": [
+                    279
+                ],
+                "Coal": [
+                    278
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1000,
+            "InteriorInputs": [
+                [
+                    [
+                        254,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.8796881190173839,
+            "PanX": 361,
+            "PanY": 27,
+            "Title": "Aluminium Megafactory"
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -900,
+            "Inputs": [
+                [
+                    [
+                        289,
+                        1
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        263,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.9741031983789166,
+            "PanX": 189,
+            "PanY": 154,
+            "Title": "Concrete Grassy Fields Outpost"
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1600,
+            "InteriorInputs": [
+                [
+                    [
+                        212,
+                        "Caterium Ingot"
+                    ]
+                ]
+            ],
+            "Zoom": 0.7493101525991663,
+            "PanX": 0,
+            "PanY": 0,
+            "Title": "Caterium"
+        },
+        {
+            "Name": "Outpost",
+            "X": -600,
+            "Y": -1700,
+            "InteriorInputs": [
+                [
+                    [
+                        237,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 1.266334157892591,
+            "PanX": 198,
+            "PanY": 356,
+            "Title": "Steel"
+        },
+        {
+            "Name": "Outpost",
+            "X": -500,
+            "Y": -600,
+            "Inputs": [
+                [
+                    [
+                        290,
+                        0
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        86,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        87,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.968527068708096,
+            "PanX": -6947,
+            "PanY": 3113,
+            "Title": "Quartz"
+        },
+        {
+            "Name": "Outpost",
+            "X": -700,
+            "Y": -600,
+            "InteriorInputs": [
+                [
+                    [
+                        97,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 1.2999999999999998,
+            "PanX": 0,
+            "PanY": 0,
+            "Title": "Nitric Acid"
+        },
+        {
+            "Name": "Outpost",
+            "X": 89,
+            "Y": -1161,
+            "Inputs": [
+                [
+                    [
+                        288,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        247,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        289,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        257,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        287,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        289,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        247,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        248,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        285,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        250,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        249,
+                        "Nitrogen Gas"
+                    ]
+                ],
+                [
+                    [
+                        286,
+                        0
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        251,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        294,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        252,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        293,
+                        0
+                    ]
+                ]
+            ],
+            "Zoom": 0.7881397344764197,
+            "PanX": 501,
+            "PanY": -178,
+            "Title": "Project Assembly Megafactory"
+        },
+        {
+            "Name": "Nuclear Pasta",
+            "X": -276,
+            "Y": -94,
+            "Parent": 293,
+            "ShowPpm": true,
+            "Max": "5",
+            "Inputs": {
+                "Copper Powder": [
+                    [
+                        293,
+                        0
+                    ]
+                ],
+                "Pressure Conversion Cube": [
+                    184
+                ]
+            }
+        },
+        {
+            "Name": "Outpost",
+            "X": -111,
+            "Y": 780,
+            "Parent": 291,
+            "Inputs": [
+                [
+                    [
+                        291,
+                        9
+                    ]
+                ],
+                [
+                    [
+                        295,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        6
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        8
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        4
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        5
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        292,
+                        "Nuclear Pasta"
+                    ]
+                ]
+            ],
+            "Zoom": 0.6891884661307806,
+            "PanX": 805,
+            "PanY": 194,
+            "Title": "Nuclear Pasta"
+        },
+        {
+            "Name": "Outpost",
+            "X": -142,
+            "Y": 98,
+            "Parent": 291,
+            "Inputs": [
+                [
+                    [
+                        291,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        8
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        4
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        1
+                    ]
+                ],
+                [
+                    [
+                        295,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        6
+                    ]
+                ],
+                [
+                    [
+                        295,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        5
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        10
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        174,
+                        "Thermal Propulsion Rocket"
+                    ]
+                ]
+            ],
+            "Zoom": 0.6454758243670138,
+            "PanX": 551,
+            "PanY": 483,
+            "Title": "Thermal Propulsion Units"
+        },
+        {
+            "Name": "Outpost",
+            "X": -1000,
+            "Y": 100,
+            "Parent": 291,
+            "Inputs": [
+                [
+                    [
+                        291,
+                        7
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        6
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        8
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        3
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        11
+                    ]
+                ],
+                [
+                    [
+                        291,
+                        10
+                    ]
+                ]
+            ],
+            "InteriorInputs": [
+                [
+                    [
+                        302,
+                        "Reinforced Iron Plate"
+                    ]
+                ],
+                [
+                    [
+                        300,
+                        "Modular Frame"
+                    ]
+                ],
+                [
+                    [
+                        299,
+                        "Heavy Modular Frame"
+                    ]
+                ],
+                [
+                    [
+                        303,
+                        "Fused Modular Frame"
+                    ]
+                ]
+            ],
+            "Zoom": 0.9488770410920337,
+            "PanX": 362,
+            "PanY": 387,
+            "Title": "Modular Frames"
+        },
+        {
+            "Name": "Iron Plate",
+            "X": -893,
+            "Y": -572,
+            "Parent": 295,
+            "Inputs": {
+                "Iron Ingot": [
+                    [
+                        295,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Steel Pipe",
+            "X": -799,
+            "Y": -177,
+            "Parent": 295,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Steel Ingot": [
+                    [
+                        295,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Alclad Casing",
+            "X": -721,
+            "Y": 200,
+            "Parent": 295,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Aluminum Ingot": [
+                    [
+                        295,
+                        3
+                    ]
+                ],
+                "Copper Ingot": [
+                    [
+                        295,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Heavy Encased Frame",
+            "X": -200,
+            "Y": -100,
+            "Parent": 295,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Modular Frame": [
+                    300
+                ],
+                "Encased Industrial Beam": [
+                    301
+                ],
+                "Steel Pipe": [
+                    297
+                ],
+                "Concrete": [
+                    [
+                        295,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Steeled Frame",
+            "X": -400,
+            "Y": -300,
+            "Parent": 295,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Reinforced Iron Plate": [
+                    302
+                ],
+                "Steel Pipe": [
+                    297
+                ]
+            }
+        },
+        {
+            "Name": "Encased Industrial Pipe",
+            "X": -439,
+            "Y": 59,
+            "Parent": 295,
+            "ClockSpeed": "250",
+            "Inputs": {
+                "Steel Pipe": [
+                    297
+                ],
+                "Concrete": [
+                    [
+                        295,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Adhered Iron Plate",
+            "X": -653,
+            "Y": -461,
+            "Parent": 295,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Iron Plate": [
+                    296
+                ],
+                "Rubber": [
+                    [
+                        295,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "Name": "Fused Modular Frame",
+            "X": 18,
+            "Y": 84,
+            "Parent": 295,
+            "ClockSpeed": "200",
+            "Inputs": {
+                "Heavy Modular Frame": [
+                    299
+                ],
+                "Aluminum Casing": [
+                    298
+                ],
+                "Nitrogen Gas": [
+                    [
+                        295,
+                        6
+                    ]
+                ]
+            }
+        }
+    ]
+}
