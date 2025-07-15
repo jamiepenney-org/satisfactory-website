@@ -23,7 +23,7 @@ services:
           memory: 8G
   satisfactory-website:
     container_name: 'satisfactory-website'
-    image: localhost:5000/satisfactory-save-games:latest
+    image: localhost:5000/satisfactory-website:latest
     command: [nginx-debug, '-g', 'daemon off;']
     restart: unless-stopped
     networks:
