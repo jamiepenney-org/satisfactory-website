@@ -3,10 +3,8 @@ on:
   push:
     branches: [ main ]
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
-  id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -19,46 +17,45 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v3
+      - name: Login to local docker registry
+        uses: docker/login-action@v2
         with:
-          node-version-file: .nvmrc
-      - name: Get node_modules cache
-        uses: actions/cache@v4
-        id: node_modules
+          registry: http://localhost:5000
+          username: docker
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      - name: Build Website Docker image
+        uses: docker/build-push-action@v4.1.1
         with:
-          path: |
-            **/node_modules
-          # Add node version as a cache key to avoid yarn recompilation for particular node as it doesn't change often
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}-${{ steps.node.outputs.version }}
-      - name: Install dependencies
-        uses: borales/actions-yarn@v4
+          context: website
+          file: website/Dockerfile
+          push: true
+          tags: |
+            localhost:5000/satisfactory-website:latest
+            localhost:5000/satisfactory-website:${{ github.sha }}
+      - name: Build Save Game Docker image
+        uses: docker/build-push-action@v4.1.1
         with:
-          cmd: install --frozen-lockfile
-      - name: Build site
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: build
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: built-site
-          # Upload only the public directory
-          path: './dist'
+          context: save-games
+          file: save-games/Dockerfile
+          push: true
+          tags: |
+            localhost:5000/satisfactory-save-games:latest
+            localhost:5000/satisfactory-save-games:${{ github.sha }}
 
-  # Deployment job
   deploy:
     runs-on: self-hosted
-    needs: build
+    needs: [build]
     steps:
-      - name: Download built site
-        uses: actions/download-artifact@v4
+      - name: Login to local docker registry
+        uses: docker/login-action@v2
         with:
-          name: built-site
-          path: './dist'
-
-      - name: Deploy site
-        id: deployment
+          registry: http://localhost:5000
+          username: docker
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      - name: Update docker compose and restart
         run: |
-          cp ./dist /opt/satisfactory/website
-          cd /opt/satisfactory && docker compose restart
+          cp docker-compose.yml /opt/satisfactory/docker-compose.yml
+          
+          cd /opt/satisfactory
+          docker compose pull && docker compose up -d
