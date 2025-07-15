@@ -20,10 +20,21 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
+      - name: Get node version
+        id: node
+        run: |
+          echo "version=$(cat .node-version)" >> $GITHUB_OUTPUT
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.17.0'
-          cache: 'yarn'
+          node-version: ${{ steps.node.outputs.version }}
+      - name: Get node_modules cache
+        uses: actions/cache@v4
+        id: node_modules
+        with:
+          path: |
+            **/node_modules
+          # Add node version as a cache key to avoid yarn recompilation for particular node as it doesn't change often
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}-${{ steps.node.outputs.version }}
       - name: Enable Corepack
         run: corepack enable
       - name: Install dependencies
