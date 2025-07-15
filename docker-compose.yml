@@ -32,10 +32,10 @@ services:
     labels:
       - "traefik.enable=true"
 
-      - "traefik.http.routers.satisfactory-map.rule=Host(`satisfactory.jamiepenney.co.nz`)"
-      - "traefik.http.routers.satisfactory-map.entrypoints=https"
-      - "traefik.http.routers.satisfactory-map.tls=true"
-      - "traefik.http.routers.satisfactory-map.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.satisfactory-website.rule=Host(`satisfactory.jamiepenney.co.nz`)"
+      - "traefik.http.routers.satisfactory-website.entrypoints=https"
+      - "traefik.http.routers.satisfactory-website.tls=true"
+      - "traefik.http.routers.satisfactory-website.tls.certresolver=letsencrypt"
   # Container that runs a crontab that creates a symlink to the latest save
   save-games:
     container_name: 'satisfactory-save-games'

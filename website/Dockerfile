@@ -14,9 +14,9 @@ RUN yarn run build
 FROM nginx:1.29.0-alpine AS prod
 
 # Remove default nginx website
-RUN rm -rf /usr/share/nginx/html/*
+RUN rm -rf /usr/share/nginx/html/* /etc/nginx/conf.d/*
 
-COPY ./website.nginx.conf /etc/nginx/sites-enabled/website
+COPY ./website.nginx.conf /etc/nginx/conf.d/website.conf
 COPY --from=build /src/dist /usr/share/nginx/html
 
 # Run nginx in foreground
