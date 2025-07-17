@@ -2,11 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+    <title>Penney Satisfactory Server</title>
   </head>
   <body>
-    <div id="cy"></div>
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#main">Our Server</a></li>
+            <li><a href="#plan">Planning</a></li>
+            <li><a href="/map" >Live Map on satisfactory-calculator.com</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <div id="wrapper">
+      <section id="main" class="wrapper style1">
+        <div class="inner">
+          <h1 class="major">Our Satisfactory Server</h1>
+          <p>
+            We are currently working on a megafactory producing items for Project Assembly Phase 4.
+          </p>
+          <div>Our current todo list:</div>
+          <ul>
+            <li style="text-decoration: line-through;">Route incoming resources to south of the factory</li>
+            <li>Construct modular frame outpost within megafactory</li>
+            <li>Set up Magnetic Field Generator floor</li>
+            <li>Set up Nuclear Pasta floor</li>
+            <li>Set up Thermal Propulsion Unit floor</li>
+            <li>Set up Assembly Director System floor</li>
+            <li>Move Space Elevator to megafactory</li>
+            <li>Complete Phase 4</li>
+            <li>Upgrade all belts to Mk.6</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="plan" class="wrapper style3">
+        <div class="inner">
+          <h2 class="major">Megafactory Planning</h2>
+          <div class="image fit">
+            <h3>Whole factory view</h3>
+            <img src="/images/whole-factory.png" alt="Whole Factory" />
+          </div>
+          <div class="image fit">
+            <h3>Phase 4 parts overview</h3>
+            <img src="/images/phase-4.png" alt="Phase 4" />
+          </div>
+          <h3>Interactive view</h3>
+          <div class="graph-wrapper">
+            <div id="cy"></div>
+          </div>
+          <p>Download the Satisfactory Modeler <a href="/model.sfmd" download> save file here.</a></p>
+        </div>
+      </section>
+    </div>
+
+    <footer id="footer" class="wrapper alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Jamie Penney. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

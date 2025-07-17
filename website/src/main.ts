@@ -29,16 +29,23 @@ cytoscape({
   },
   style: [
     {
+      selector: 'label',
+      style: {
+        'color': '#efefef'
+      }
+    },
+    {
       selector: 'node[type = "OUTPOST"]',
       style: {
-        'background-color': '#0000FF',
+        'background-color': '#b74e91',
+
         'label': 'data(name)'
       }
     },
     {
       selector: 'node[type = "MACHINE"]',
       style: {
-        'background-color': '#dd4de2',
+        'background-color': '#5052b5',
         'label': 'data(name)'
       }
     },
@@ -47,8 +54,8 @@ cytoscape({
       style: {
         'curve-style': 'bezier',
         'target-arrow-shape': 'triangle',
-        'line-color': '#dd4de2',
-        'target-arrow-color': '#dd4de2',
+        'line-color': '#5e42a6',
+        'target-arrow-color': '#5e42a6',
         'opacity': 0.5
       }
     }

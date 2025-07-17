@@ -1,6 +1,7 @@
-body {
-  font-family: helvetica neue, helvetica, liberation sans, arial, sans-serif;
-  font-size: 14px;
+.graph-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80vh;
 }
 
 #cy {
@@ -10,10 +11,6 @@ body {
   bottom: 0;
   right: 0;
   z-index: 999;
-}
-
-h1 {
-  opacity: 0.5;
-  font-size: 1em;
-  font-weight: bold;
+  background-color: #111213;
+  border-radius: 0.25em;
 }
