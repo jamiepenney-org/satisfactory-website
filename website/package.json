@@ -10,7 +10,8 @@
   },
   "devDependencies": {
     "typescript": "~5.8.3",
-    "vite": "^7.0.4"
+    "vite": "^7.0.4",
+    "vite-plugin-open-graph": "^2.0.6"
   },
   "dependencies": {
     "@types/cytoscape-klay": "^3.1.4",
