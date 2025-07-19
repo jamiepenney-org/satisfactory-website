@@ -18,9 +18,9 @@ services:
     deploy:
       resources:
         limits:
-          memory: 10G
+          memory: 12G
         reservations:
-          memory: 8G
+          memory: 12G
   satisfactory-website:
     container_name: 'satisfactory-website'
     image: localhost:5000/satisfactory-website:latest
