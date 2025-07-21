@@ -113,7 +113,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.75);
 		font-family: helvetica neue, helvetica, liberation sans, arial, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -3735,7 +3735,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.55);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3775,7 +3775,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 			#sidebar nav a.active {

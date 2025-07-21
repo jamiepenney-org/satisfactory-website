@@ -29,7 +29,7 @@ cytoscape({
   },
   style: [
     {
-      selector: 'label',
+      selector: 'node',
       style: {
         'color': '#efefef'
       }
