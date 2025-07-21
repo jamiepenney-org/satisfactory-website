@@ -7,7 +7,7 @@ RUN yarn --frozen-lockfile
 
 COPY ./src ./src
 COPY ./public ./public
-COPY index.html tsconfig.json ./
+COPY index.html tsconfig.json vite.config.ts ./
 
 RUN yarn run build
 
