@@ -1,0 +1,4 @@
+# .husky/pre-commit
+cd website
+yarn run generate-og-image
+git add website/public/images/og.png
