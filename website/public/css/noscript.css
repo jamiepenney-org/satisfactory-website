@@ -11,9 +11,6 @@
 	}
 
 	.spotlights > section > .content > .inner {
-		-moz-transform: none !important;
-		-webkit-transform: none !important;
-		-ms-transform: none !important;
 		transform: none !important;
 		opacity: 1 !important;
 	}
@@ -22,9 +19,6 @@
 
 	.wrapper > .inner {
 		opacity: 1 !important;
-		-moz-transform: none !important;
-		-webkit-transform: none !important;
-		-ms-transform: none !important;
 		transform: none !important;
 	}
 
@@ -35,9 +29,6 @@
 	}
 
 	#sidebar nav > ul > li {
-		-moz-transform: none !important;
-		-webkit-transform: none !important;
-		-ms-transform: none !important;
 		transform: none !important;
 		opacity: 1 !important;
 	}

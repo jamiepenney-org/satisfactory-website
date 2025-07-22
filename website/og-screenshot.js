@@ -1,8 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import {fileURLToPath} from 'node:url';
 import puppeteer from 'puppeteer';
-import { createServer } from 'http-server';
+import {createServer} from 'http-server';
 
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.resolve(projectRoot, 'public');
