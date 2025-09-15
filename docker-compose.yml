@@ -31,7 +31,6 @@ services:
       - './satisfactory-server/saved/server:/usr/share/nginx/html/saves:ro'
     labels:
       - "traefik.enable=true"
-
       - "traefik.http.routers.satisfactory-website.rule=Host(`satisfactory.jamiepenney.co.nz`)"
       - "traefik.http.routers.satisfactory-website.entrypoints=https"
       - "traefik.http.routers.satisfactory-website.tls=true"
