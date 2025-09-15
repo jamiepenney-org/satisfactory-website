@@ -18,7 +18,7 @@
 
     "puppeteer": "^24.20.0",
     "typescript": "~5.9.2",
-    "vite": "^7.0.4",
+    "vite": "^7.1.5",
     "vite-plugin-open-graph": "^2.0.6"
   }
 }
