@@ -474,10 +474,10 @@ cytoscape-klay@^3.1.4:
   dependencies:
     klayjs "^0.4.1"
 
-cytoscape@^3.32.1:
-  version "3.32.1"
-  resolved "https://registry.npmjs.org/cytoscape/-/cytoscape-3.32.1.tgz"
-  integrity sha512-dbeqFTLYEwlFg7UGtcZhCCG/2WayX72zK3Sq323CEX29CY81tYfVhw1MIdduCtpstB0cTOhJswWlM/OEB3Xp+Q==
+cytoscape@^3.33.1:
+  version "3.33.1"
+  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.33.1.tgz#449e05d104b760af2912ab76482d24c01cdd4c97"
+  integrity sha512-iJc4TwyANnOGR1OmWhsS9ayRS3s+XQ185FmuHObThD+5AeJCakAAbWv8KimMTt08xCCLNgneQwFp+JRJOr9qGQ==
 
 data-uri-to-buffer@^6.0.2:
   version "6.0.2"
