@@ -8,17 +8,16 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "generate-og-image": "node og-screenshot.js"
-
   },
   "dependencies": {
     "@types/cytoscape-klay": "^3.1.4",
     "cytoscape": "^3.33.1",
     "cytoscape-klay": "^3.1.4",
     "http-server": "14.1.1",
-
     "puppeteer": "^24.25.0",
     "typescript": "~5.9.3",
     "vite": "^7.1.12",
     "vite-plugin-open-graph": "^2.0.6"
-  }
+  },
+  "packageManager": "yarn@4.10.3"
 }

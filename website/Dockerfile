@@ -1,9 +1,11 @@
-FROM node:22.17.0-alpine AS build
+FROM node:25.0.0-alpine AS build
 
 WORKDIR /src
-COPY package.json yarn.lock ./
+# remove Yarn v1 symlinks and install corepack version of yarn
+RUN rm /usr/local/bin/yarn* && npm install -g corepack && corepack enable yarn && corepack prepare yarn
 
-RUN yarn --frozen-lockfile
+COPY package.json yarn.lock .yarnrc.yml ./
+RUN yarn --immutable
 
 COPY ./src ./src
 COPY ./public ./public
