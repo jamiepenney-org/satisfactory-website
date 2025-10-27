@@ -435,19 +435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/cytoscape-klay@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "@types/cytoscape-klay@npm:3.1.4"
+"@types/cytoscape-klay@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "@types/cytoscape-klay@npm:3.1.5"
   dependencies:
-    "@types/cytoscape": "npm:*"
-  checksum: 10c0/ab1561aab3564f75b5b4bdbd548bf9804a2a5869a128b675f9b7cd0d060af21c93020b631b373b6ac7a809f5fc989f1240489086b319f6c46af41192c8cb93ea
-  languageName: node
-  linkType: hard
-
-"@types/cytoscape@npm:*":
-  version: 3.21.9
-  resolution: "@types/cytoscape@npm:3.21.9"
-  checksum: 10c0/49c25b18322c405166982ae60ea6618e07329931e7b8824c84ee418ba705ac178d6a47886089bc3087167493c4dfe297a1b20fbc964fc22d662ee83f377d8f5b
+    cytoscape: "npm:^3.31"
+  checksum: 10c0/7a7840bb01925ee204c6259c387d5d7353141c2e7750f3d6ab29e2130229bd14d9430b2010981e4aa56b12d35fa30e1d023898f1e89dba45cb68f4e0d1ee64de
   languageName: node
   linkType: hard
 
@@ -794,7 +787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cytoscape@npm:^3.33.1":
+"cytoscape@npm:^3.31, cytoscape@npm:^3.33.1":
   version: 3.33.1
   resolution: "cytoscape@npm:3.33.1"
   checksum: 10c0/dffcf5f74df4d91517c4faf394df880d8283ce76edef19edba0c762941cf4f18daf7c4c955ec50c794f476ace39ad4394f8c98483222bd2682e1fd206e976411
@@ -2086,7 +2079,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "satisfactory-website@workspace:."
   dependencies:
-    "@types/cytoscape-klay": "npm:^3.1.4"
+    "@types/cytoscape-klay": "npm:^3.1.5"
     cytoscape: "npm:^3.33.1"
     cytoscape-klay: "npm:^3.1.4"
     http-server: "npm:14.1.1"
