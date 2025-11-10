@@ -257,9 +257,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@puppeteer/browsers@npm:2.10.12":
-  version: 2.10.12
-  resolution: "@puppeteer/browsers@npm:2.10.12"
+"@puppeteer/browsers@npm:2.10.13":
+  version: 2.10.13
+  resolution: "@puppeteer/browsers@npm:2.10.13"
   dependencies:
     debug: "npm:^4.4.3"
     extract-zip: "npm:^2.0.1"
@@ -270,7 +270,7 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     browsers: lib/cjs/main-cli.js
-  checksum: 10c0/c55e04ecef143b15aa7f984715b394433863e9c24037daaf4c67fc3919a991df7882d5ac4a12a0d389730b378d3be3b6048976e3fe36f354e9125152d59a5aba
+  checksum: 10c0/b6e003649f5d5231fa8c3aab32423cd3f89cdacc4cf8cf7e0e85b40c53858b09be4c5daf32bbbe481bdaaee1bc28bc78bfb5c19495de8d8736c9728ec25b7a02
   languageName: node
   linkType: hard
 
@@ -709,15 +709,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromium-bidi@npm:9.1.0":
-  version: 9.1.0
-  resolution: "chromium-bidi@npm:9.1.0"
+"chromium-bidi@npm:10.5.1":
+  version: 10.5.1
+  resolution: "chromium-bidi@npm:10.5.1"
   dependencies:
     mitt: "npm:^3.0.1"
     zod: "npm:^3.24.1"
   peerDependencies:
     devtools-protocol: "*"
-  checksum: 10c0/ab75ab4e3434e1fab11a35a1fa6f64dd55bfcdf046251f4489ece828ae18b3c88b16728b00d02c4ed012b686f455cb589774370ef8f3f07b9d762476c4c672cc
+  checksum: 10c0/094fca13c1361a1cd6b951cf21f7d68f9cb0d1a5aee31b55f0ace5bb144c4606f2cff5625a6328146e5c326f3baaae45a2cc1e11ca47cb9ad36aaf35107647fe
   languageName: node
   linkType: hard
 
@@ -843,10 +843,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devtools-protocol@npm:0.0.1508733":
-  version: 0.0.1508733
-  resolution: "devtools-protocol@npm:0.0.1508733"
-  checksum: 10c0/d8d15e0a79b7343b9fe165fca70fabb77da29f7e3d72aa38b2776de795f8a24a3ea592da7b4edd9bf86344114e1431b0dd1b663c8c4efcd7f130db42d5360d88
+"devtools-protocol@npm:0.0.1521046":
+  version: 0.0.1521046
+  resolution: "devtools-protocol@npm:0.0.1521046"
+  checksum: 10c0/ba4b83a94e2b9c26772b22a8f6029ff296976a72db8e4567c9076393fccc39a452f6c0530869eebe2e1ad483db0e6233cd6b7b723ce466a05660c758f5e06db0
   languageName: node
   linkType: hard
 
@@ -1919,34 +1919,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:24.25.0":
-  version: 24.25.0
-  resolution: "puppeteer-core@npm:24.25.0"
+"puppeteer-core@npm:24.29.1":
+  version: 24.29.1
+  resolution: "puppeteer-core@npm:24.29.1"
   dependencies:
-    "@puppeteer/browsers": "npm:2.10.12"
-    chromium-bidi: "npm:9.1.0"
+    "@puppeteer/browsers": "npm:2.10.13"
+    chromium-bidi: "npm:10.5.1"
     debug: "npm:^4.4.3"
-    devtools-protocol: "npm:0.0.1508733"
+    devtools-protocol: "npm:0.0.1521046"
     typed-query-selector: "npm:^2.12.0"
-    webdriver-bidi-protocol: "npm:0.3.7"
+    webdriver-bidi-protocol: "npm:0.3.8"
     ws: "npm:^8.18.3"
-  checksum: 10c0/4c001bd333e7efc4748a6f0ed271d37343708f31237ba48a0b96cb498edd805ff4a1a46fb05aecc8f0b5829518e79a7f056774837148b37898a191bec98d8e73
+  checksum: 10c0/dd767012045a497ba29f8367fa4d149a1cd75db00c01528b5082548d5920278f76b88314a820b470a22a103e9c87dc7b1f09852d81a4958fe97fdae5acc7288f
   languageName: node
   linkType: hard
 
-"puppeteer@npm:^24.25.0":
-  version: 24.25.0
-  resolution: "puppeteer@npm:24.25.0"
+"puppeteer@npm:^24.29.1":
+  version: 24.29.1
+  resolution: "puppeteer@npm:24.29.1"
   dependencies:
-    "@puppeteer/browsers": "npm:2.10.12"
-    chromium-bidi: "npm:9.1.0"
+    "@puppeteer/browsers": "npm:2.10.13"
+    chromium-bidi: "npm:10.5.1"
     cosmiconfig: "npm:^9.0.0"
-    devtools-protocol: "npm:0.0.1508733"
-    puppeteer-core: "npm:24.25.0"
+    devtools-protocol: "npm:0.0.1521046"
+    puppeteer-core: "npm:24.29.1"
     typed-query-selector: "npm:^2.12.0"
   bin:
     puppeteer: lib/cjs/puppeteer/node/cli.js
-  checksum: 10c0/1eb541860646819317e5c6f406ce664ddc6663339fef3029bed000b145cb8097625e48dce5a81e7f15a93ab48a86c9659544b773110080e409a28a8a41e20e95
+  checksum: 10c0/2ca726f077929b190b50a96c8e968162194cd7b83af324005aa767f73862926223eb9cd60d00de81d71f435b74aad274103c644b1b773a39d804d47fefe687bb
   languageName: node
   linkType: hard
 
@@ -2090,7 +2090,7 @@ __metadata:
     cytoscape: "npm:^3.33.1"
     cytoscape-klay: "npm:^3.1.4"
     http-server: "npm:14.1.1"
-    puppeteer: "npm:^24.25.0"
+    puppeteer: "npm:^24.29.1"
     typescript: "npm:~5.9.3"
     vite: "npm:^7.1.12"
     vite-plugin-open-graph: "npm:^2.0.6"
@@ -2502,10 +2502,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webdriver-bidi-protocol@npm:0.3.7":
-  version: 0.3.7
-  resolution: "webdriver-bidi-protocol@npm:0.3.7"
-  checksum: 10c0/a2353c7fc7c30c8d02e482c6904807592d675af24d84deeb9680d42feceb23a56df6dec5b7d65ad6ffcfb96e4f7270ab78827dbf59caec9bed5b7087744e0925
+"webdriver-bidi-protocol@npm:0.3.8":
+  version: 0.3.8
+  resolution: "webdriver-bidi-protocol@npm:0.3.8"
+  checksum: 10c0/288134377635b9cd24cc73f9b715d169eea39eeb8d50afbafd90ca313379fa9b2964e666c90256d2b34a6089e3531cc1e17a0d289d3b8f9b224a2bba73fb03e3
   languageName: node
   linkType: hard
 
