@@ -16,7 +16,7 @@
     "http-server": "14.1.1",
     "puppeteer": "^24.25.0",
     "typescript": "~5.9.3",
-    "vite": "^7.1.12",
+    "vite": "^7.2.2",
     "vite-plugin-open-graph": "^2.0.6"
   },
   "packageManager": "yarn@4.10.3"
