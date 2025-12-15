@@ -13,7 +13,7 @@ COPY index.html tsconfig.json vite.config.ts ./
 
 RUN yarn run build
 
-FROM nginx:1.29.2-alpine AS prod
+FROM nginx:1.29.4-alpine AS prod
 
 # Remove default nginx website
 RUN rm -rf /usr/share/nginx/html/* /etc/nginx/conf.d/*
