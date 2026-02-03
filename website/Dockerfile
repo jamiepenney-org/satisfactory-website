@@ -1,4 +1,4 @@
-FROM node:25.0.0-alpine AS build
+FROM node:25.5.0-alpine AS build
 
 WORKDIR /src
 # remove Yarn v1 symlinks and install corepack version of yarn
