@@ -1,8 +1,8 @@
-FROM node:25.0.0-alpine AS build
+FROM node:26.13.1-alpine AS build
 
 WORKDIR /src
 # remove Yarn v1 symlinks and install corepack version of yarn
-RUN rm /usr/local/bin/yarn* && npm install -g corepack && corepack enable yarn && corepack prepare yarn
+RUN rm -f /usr/local/bin/yarn* && npm install -g corepack && corepack enable yarn && corepack prepare yarn
 
 COPY package.json yarn.lock .yarnrc.yml ./
 RUN yarn --immutable
@@ -13,7 +13,7 @@ COPY index.html tsconfig.json vite.config.ts ./
 
 RUN yarn run build
 
-FROM nginx:1.29.2-alpine AS prod
+FROM nginx:1.31.9-alpine AS prod
 
 # Remove default nginx website
 RUN rm -rf /usr/share/nginx/html/* /etc/nginx/conf.d/*
