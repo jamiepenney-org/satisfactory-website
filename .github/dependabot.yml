@@ -19,10 +19,6 @@ updates:
       - "/save-games"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "docker-compose"
-    directory: "/"
-    schedule:
-      interval: "weekly"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
