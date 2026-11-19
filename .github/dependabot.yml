@@ -19,6 +19,13 @@ updates:
       - "/save-games"
     schedule:
       interval: "weekly"
+  - package-ecosystem: "docker-compose"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # Images in the private localhost:5000 registry, which Dependabot cannot reach
+      - dependency-name: "localhost*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
