@@ -30,6 +30,8 @@ services:
     volumes:
       - './satisfactory-server/saved/server:/usr/share/nginx/html/saves:ro'
     labels:
+      # WUD can't query the private registry; Dependabot tracks this image's base instead.
+      - wud.watch=false
       - "traefik.enable=true"
       - "traefik.http.routers.satisfactory-website.rule=Host(`satisfactory.jamiepenney.co.nz`)"
       - "traefik.http.routers.satisfactory-website.entrypoints=https"
@@ -40,6 +42,9 @@ services:
     container_name: 'satisfactory-save-games'
     restart: unless-stopped
     image: localhost:5000/satisfactory-save-games:latest
+    labels:
+      # WUD can't query the private registry; Dependabot tracks this image's base instead.
+      - wud.watch=false
     volumes:
       - './satisfactory-server/saved/server:/saves'
 
